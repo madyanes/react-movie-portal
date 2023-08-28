@@ -1,6 +1,21 @@
+import { Routes, Route } from 'react-router-dom';
+
+import Navigation from './components/Navigation';
+
+import HomePage from './pages/HomePage';
+
 function App() {
   return (
-    <h1>Hello world</h1>
+    <>
+      <header>
+        <Navigation />
+      </header>
+      <main>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+        </Routes>
+      </main>
+    </>
   )
 }
 
