@@ -1,8 +1,6 @@
-import { Routes, Route } from 'react-router-dom';
-
 import Navigation from './components/Navigation';
 
-import HomePage from './pages/HomePage';
+import Pages from './components/Pages';
 
 function App() {
   return (
@@ -11,9 +9,7 @@ function App() {
         <Navigation />
       </header>
       <main>
-        <Routes>
-          <Route path="/" element={<HomePage />}></Route>
-        </Routes>
+        <Pages />
       </main>
     </>
   )
