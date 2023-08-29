@@ -1,7 +1,9 @@
+import React from 'react';
+
 function Navigation() {
   return (
     <h1>Navigation Bar</h1>
-  )
+  );
 }
 
-export default Navigation
+export default Navigation;

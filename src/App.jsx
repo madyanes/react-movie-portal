@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Navigation from './components/Navigation';
 
 import Pages from './components/Pages';
@@ -12,7 +14,7 @@ function App() {
         <Pages />
       </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
